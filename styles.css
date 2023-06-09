@@ -1,0 +1,122 @@
+:root {
+    --dynamic-color: rgb(119, 177, 169);
+  }
+  
+  * {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+    vertical-align: baseline;
+  }
+  
+  body {
+    background-color: var(--dynamic-color);
+    color: var(--dynamic-color);
+    font-family: 'Raleway', sans-serif;
+    font-weight: 400;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+  }
+  
+  div {
+    position: relative;
+    z-index: 2;
+  }
+  
+  #quote-box {
+    border-radius: 3px;
+    position: relative;
+    width: 450px;
+    padding: 40px 50px;
+    display: table;
+    background-color: white;
+  }
+  
+  .quote-text {
+    text-align: center;
+    width: 450px;
+    height: auto;
+    clear: both;
+    font-weight: 500;
+    font-size: 1.75em;
+  }
+  
+  i {
+    font-size: 1em;
+    margin-right: 0.4em;
+  }
+  
+  .fa {
+    display: inline-block;
+    text-rendering: auto;
+    -moz-osx-font-smoothing: grayscale;
+    transform: translate(0, 0);
+  }
+  
+  .text {
+    text-align: center;
+    font-weight: 500;
+    font-size: 1.75em;
+  }
+  
+  .quote-author {
+    width: 450px;
+    height: auto;
+    clear: both;
+    padding-top: 20px;
+    font-size: 1em;
+    text-align: right;
+  }
+  
+  #new-quote {
+    float: right;
+  }
+  
+  #tweet-quote {
+    float: left;
+    padding: 0;
+    padding-top: 8px;
+    text-align: center;
+    font-size: 1.2em;
+    margin-right: 5px;
+    margin-left: 5px;
+    height: 30px;
+    width: 40px;
+  }
+  
+  .quote-buttons {
+    width: 450px;
+    margin: auto;
+    display: block;
+  }
+  
+  .button {
+    height: 38px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background-color: var(--dynamic-color);
+    outline: none;
+    font-size: 0.85em;
+    padding: 8px 18px 8px 18px;
+    margin-top: 30px;
+    opacity: 1;
+    cursor: pointer;
+  }
+  
+  .footer {
+    width: 450px;
+    text-align: center;
+    display: block;
+    margin: 15px auto 30px auto;
+    font-size: 0.8em;
+    color: white;
+  }
+  
+  .footer a {
+    font-weight: 500;
+    text-decoration: none;
+    color: white;
+  }

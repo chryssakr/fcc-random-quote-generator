@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>[FCC] Build a Random Quote Machine</title>
+    <script src="https://use.fontawesome.com/222271f397.js"></script>
+    <script src="script.js"></script>
+    <link rel = "stylesheet" href = "./styles.css" />
+</head>
+
+<body>
+    <div id = "wrapper">
+        <div id = "quote-box">
+          <div class = "quote-text">
+            <i class = "fa fa-quote-left"></i>
+            <span id =  "text">
+              It is not what you do for your children, but what you have taught them to do for themselves, that will make them successful human beings.
+            </span>
+          </div>
+          <div class =  "quote-author">
+            -
+            <span id = "author">
+              Ann Landers
+            </span>
+          </div>
+          <div class = "quote-buttons">
+            <a id = "tweet-quote"
+               href = "https://twitter.com/intent/tweet"
+               class = "button"
+               title = "Tweet this quote!"
+               target = "_top">
+              <i class = "fa fa-twitter"></i>
+            </a>
+            <button id = "new-quote" class = "button" onclick = updateQuote()>New Quote</button>
+          </div>
+        </div>
+        <div class = "footer">
+            by
+            <a href = "https://codepen.io/chryssakr/">
+            chryssakr
+            </a>
+        </div>
+    </div>
+</body>
+</html>
